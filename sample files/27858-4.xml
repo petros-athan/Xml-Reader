@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<subaack:SubaAcknowledgement xmlns:subaack="http://www.stats.ecb.europa.eu/ssm/suba/acknowledgement" xmlns:subaetlack="http://www.stats.ecb.europa.eu/ssm/suba/etl">
+  <subaack:ReferredSenderId>GR2</subaack:ReferredSenderId>
+  <subaack:ReferredIREF>000005945</subaack:ReferredIREF>
+  <subaack:ReferredDateTimeReceived>2022-09-29T12:31:32+02:00</subaack:ReferredDateTimeReceived>
+  <subaack:FileName>5299009N55YRQC69CN08_GR_COREP030000_COREPOFCON_2022-06-30_20220810154100000.xbrl</subaack:FileName>
+  <subaack:ReportContext>
+    <subaack:ReportedEntity>
+      <subaack:EntityId scheme="http://standards.iso.org/iso/17442">5299009N55YRQC69CN08</subaack:EntityId>
+      <subaack:EntityName>ALPHA SERVICES AND HOLDINGS S.A.</subaack:EntityName>
+    </subaack:ReportedEntity>
+    <subaack:Module>http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/its-005-2020/2020-11-15/mod/corep_of_con.xsd</subaack:Module>
+    <subaack:ReferenceDate>2022-06-30+02:00</subaack:ReferenceDate>
+  </subaack:ReportContext>
+  <subaack:AcceptanceStatus>Not-Accepted</subaack:AcceptanceStatus>
+  <subaack:ValidationStatus>Warning</subaack:ValidationStatus>
+  <subaack:Version>3</subaack:Version>
+  <subaack:Revision>0</subaack:Revision>
+  <subaack:Statistics>
+    <subaack:NumberOfValidItems>17733</subaack:NumberOfValidItems>
+    <subaack:NumberOfInformationItems>0</subaack:NumberOfInformationItems>
+    <subaack:NumberOfWarnings>6</subaack:NumberOfWarnings>
+    <subaack:NumberOfNonRestrictiveErrors>0</subaack:NumberOfNonRestrictiveErrors>
+    <subaack:NumberOfErrors>0</subaack:NumberOfErrors>
+    <subaack:NumberOfFatalErrors>0</subaack:NumberOfFatalErrors>
+    <subaack:FilingIndicatorsFound>58</subaack:FilingIndicatorsFound>
+    <subaack:NumberOfContextFound>0</subaack:NumberOfContextFound>
+    <subaack:NumberOfFactsFound>17739</subaack:NumberOfFactsFound>
+  </subaack:Statistics>
+  <subaack:ErrorsFound>
+    <subaack:Error>
+      <subaack:ErrorCode>eba_v0315_m</subaack:ErrorCode>
+      <subaack:IsFatalError>false</subaack:IsFatalError>
+      <subaack:ErrorStatus>Awaiting correction</subaack:ErrorStatus>
+      <subaack:ErrorSeverity>Warning</subaack:ErrorSeverity>
+      <subaack:ShortDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:ShortDescription>
+      <subaack:LongDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:LongDescription>
+      <subaack:VRType>XBRL</subaack:VRType>
+      <subaack:Owner>EBA</subaack:Owner>
+      <subaack:Difference>2335760.64</subaack:Difference>
+      <subaack:DifferencePercentage>1</subaack:DifferencePercentage>
+      <subaack:FormulaExpression>$a &gt;= $b</subaack:FormulaExpression>
+      <subaack:Observation>
+        <subaack:tsrc_descr>C_07.00.a[0001][0110][0216]</subaack:tsrc_descr>
+        <subaack:dp_descr>XBRL:MET(EBA:mi485)EBA:APR(x42)EBA:BAS(x9)EBA:MCY(x100)EBA:PRP(x10)EBA:TRI(x1)</subaack:dp_descr>
+        <subaack:variable>$a</subaack:variable>
+        <subaack:value unit="EUR" decimals="-3" type="float">-2335760.64</subaack:value>
+      </subaack:Observation>
+    </subaack:Error>
+    <subaack:Error>
+      <subaack:ErrorCode>eba_v0315_m</subaack:ErrorCode>
+      <subaack:IsFatalError>false</subaack:IsFatalError>
+      <subaack:ErrorStatus>Awaiting correction</subaack:ErrorStatus>
+      <subaack:ErrorSeverity>Warning</subaack:ErrorSeverity>
+      <subaack:ShortDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:ShortDescription>
+      <subaack:LongDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:LongDescription>
+      <subaack:VRType>XBRL</subaack:VRType>
+      <subaack:Owner>EBA</subaack:Owner>
+      <subaack:Difference>2285198.38</subaack:Difference>
+      <subaack:DifferencePercentage>1</subaack:DifferencePercentage>
+      <subaack:FormulaExpression>$a &gt;= $b</subaack:FormulaExpression>
+      <subaack:Observation>
+        <subaack:tsrc_descr>C_07.00.a[0008][0110][0217]</subaack:tsrc_descr>
+        <subaack:dp_descr>XBRL:MET(EBA:mi486)EBA:APR(x42)EBA:BAS(x9)EBA:CPS(x51)EBA:EXC(x17)EBA:MCY(x100)EBA:PRP(x10)EBA:TRI(x1)</subaack:dp_descr>
+        <subaack:variable>$a</subaack:variable>
+        <subaack:value unit="EUR" decimals="-3" type="float">-2285198.38</subaack:value>
+      </subaack:Observation>
+    </subaack:Error>
+    <subaack:Error>
+      <subaack:ErrorCode>eba_v0315_m</subaack:ErrorCode>
+      <subaack:IsFatalError>false</subaack:IsFatalError>
+      <subaack:ErrorStatus>Awaiting correction</subaack:ErrorStatus>
+      <subaack:ErrorSeverity>Warning</subaack:ErrorSeverity>
+      <subaack:ShortDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:ShortDescription>
+      <subaack:LongDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:LongDescription>
+      <subaack:VRType>XBRL</subaack:VRType>
+      <subaack:Owner>EBA</subaack:Owner>
+      <subaack:Difference>1004081.5</subaack:Difference>
+      <subaack:DifferencePercentage>1</subaack:DifferencePercentage>
+      <subaack:FormulaExpression>$a &gt;= $b</subaack:FormulaExpression>
+      <subaack:Observation>
+        <subaack:tsrc_descr>C_07.00.a[0008][0110][0216]</subaack:tsrc_descr>
+        <subaack:dp_descr>XBRL:MET(EBA:mi485)EBA:APR(x42)EBA:BAS(x9)EBA:CPS(x51)EBA:EXC(x17)EBA:MCY(x100)EBA:PRP(x10)EBA:TRI(x1)</subaack:dp_descr>
+        <subaack:variable>$a</subaack:variable>
+        <subaack:value unit="EUR" decimals="-3" type="float">-1004081.5</subaack:value>
+      </subaack:Observation>
+    </subaack:Error>
+    <subaack:Error>
+      <subaack:ErrorCode>eba_v0315_m</subaack:ErrorCode>
+      <subaack:IsFatalError>false</subaack:IsFatalError>
+      <subaack:ErrorStatus>Awaiting correction</subaack:ErrorStatus>
+      <subaack:ErrorSeverity>Warning</subaack:ErrorSeverity>
+      <subaack:ShortDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:ShortDescription>
+      <subaack:LongDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:LongDescription>
+      <subaack:VRType>XBRL</subaack:VRType>
+      <subaack:Owner>EBA</subaack:Owner>
+      <subaack:Difference>1331679.15</subaack:Difference>
+      <subaack:DifferencePercentage>1</subaack:DifferencePercentage>
+      <subaack:FormulaExpression>$a &gt;= $b</subaack:FormulaExpression>
+      <subaack:Observation>
+        <subaack:tsrc_descr>C_07.00.a[0009][0110][0216]</subaack:tsrc_descr>
+        <subaack:dp_descr>XBRL:MET(EBA:mi485)EBA:APR(x42)EBA:BAS(x9)EBA:CPS(x22)EBA:EXC(x26)EBA:MCY(x100)EBA:PRP(x10)EBA:TRI(x1)</subaack:dp_descr>
+        <subaack:variable>$a</subaack:variable>
+        <subaack:value unit="EUR" decimals="-3" type="float">-1331679.15</subaack:value>
+      </subaack:Observation>
+    </subaack:Error>
+    <subaack:Error>
+      <subaack:ErrorCode>eba_v0315_m</subaack:ErrorCode>
+      <subaack:IsFatalError>false</subaack:IsFatalError>
+      <subaack:ErrorStatus>Awaiting correction</subaack:ErrorStatus>
+      <subaack:ErrorSeverity>Warning</subaack:ErrorSeverity>
+      <subaack:ShortDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:ShortDescription>
+      <subaack:LongDescription>v0315_m: [C 07.00.a (c0200;0215;0216;0217;0220, All sheets)] {r0110} &gt;= {r0120}</subaack:LongDescription>
+      <subaack:VRType>XBRL</subaack:VRType>
+      <subaack:Owner>EBA</subaack:Owner>
+      <subaack:Difference>2285198.38</subaack:Difference>
+      <subaack:DifferencePercentage>1</subaack:DifferencePercentage>
+      <subaack:FormulaExpression>$a &gt;= $b</subaack:FormulaExpression>
+      <subaack:Observation>
+        <subaack:tsrc_descr>C_07.00.a[0001][0110][0217]</subaack:tsrc_descr>
+        <subaack:dp_descr>XBRL:MET(EBA:mi486)EBA:APR(x42)EBA:BAS(x9)EBA:MCY(x100)EBA:PRP(x10)EBA:TRI(x1)</subaack:dp_descr>
+        <subaack:variable>$a</subaack:variable>
+        <subaack:value unit="EUR" decimals="-3" type="float">-2285198.38</subaack:value>
+      </subaack:Observation>
+    </subaack:Error>
+    <subaack:Error>
+      <subaack:ErrorCode>EGDQ_0571</subaack:ErrorCode>
+      <subaack:VRVersion>0</subaack:VRVersion>
+      <subaack:IsFatalError>false</subaack:IsFatalError>
+      <subaack:ErrorStatus>Awaiting correction</subaack:ErrorStatus>
+      <subaack:ErrorSeverity>Warning</subaack:ErrorSeverity>
+      <subaack:ShortDescription>{C14.01,c0447,s0020} should not be reported.</subaack:ShortDescription>
+      <subaack:LongDescription>{C14.01,c0447,s0020} should not be reported.</subaack:LongDescription>
+      <subaack:VRType>non-XBRL</subaack:VRType>
+      <subaack:Owner>ECB</subaack:Owner>
+      <subaack:FormulaLeft>ISNULL({T(C_14.01)R(*)C(0447)S(0020)})</subaack:FormulaLeft>
+      <subaack:FormulaRight>1</subaack:FormulaRight>
+      <subaack:Operator>=</subaack:Operator>
+      <subaack:RunCriterion>Templates Received</subaack:RunCriterion>
+      <subaack:PreCondition>TRUE</subaack:PreCondition>
+      <subaack:ValueLeft type="decimal" low="0" up="0">0</subaack:ValueLeft>
+      <subaack:ValueRight type="decimal" low="1" up="1">1</subaack:ValueRight>
+      <subaack:Difference>1</subaack:Difference>
+      <subaack:DifferencePercentage>1</subaack:DifferencePercentage>
+      <subaack:FormulaExpression>(ISNULL({T(C_14.01)R(*)C(0447)S(0020)})) = (1)</subaack:FormulaExpression>
+      <subaack:Observation>
+        <subaack:tsrc_descr/>
+        <subaack:dp_descr>XBRL:MET(EBA:mi642)EBA:BAS(x17)EBA:MCY(x19)EBA:MRW(x125)EBA:SIC(XS026271)</subaack:dp_descr>
+        <subaack:variable>N/A</subaack:variable>
+        <subaack:value unit="EUR" decimals="-3" type="float">0</subaack:value>
+      </subaack:Observation>
+    </subaack:Error>
+  </subaack:ErrorsFound>
+</subaack:SubaAcknowledgement>

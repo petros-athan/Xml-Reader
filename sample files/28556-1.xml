@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<subaack:SubaAcknowledgement xmlns:subaack="http://www.stats.ecb.europa.eu/ssm/suba/acknowledgement" xmlns:subaetlack="http://www.stats.ecb.europa.eu/ssm/suba/etl">
+  <subaack:ReferredSenderId>GR2</subaack:ReferredSenderId>
+  <subaack:ReferredIREF>000006343</subaack:ReferredIREF>
+  <subaack:ReferredDateTimeReceived>2022-11-09T07:10:46+01:00</subaack:ReferredDateTimeReceived>
+  <subaack:FileName>5299009N55YRQC69CN08_GR_COREP030000_COREPALMCON_2022-09-30_20221108105127000.xbrl</subaack:FileName>
+  <subaack:ReportContext>
+    <subaack:ReportedEntity>
+      <subaack:EntityId scheme="http://standards.iso.org/iso/17442">5299009N55YRQC69CN08</subaack:EntityId>
+      <subaack:EntityName>ALPHA SERVICES AND HOLDINGS S.A.</subaack:EntityName>
+    </subaack:ReportedEntity>
+    <subaack:Module>http://www.eba.europa.eu/eu/fr/xbrl/crr/fws/corep/its-005-2020/2020-11-15/mod/corep_alm_con.xsd</subaack:Module>
+    <subaack:ReferenceDate>2022-09-30+02:00</subaack:ReferenceDate>
+  </subaack:ReportContext>
+  <subaack:AcceptanceStatus>Accepted</subaack:AcceptanceStatus>
+  <subaack:ValidationStatus>Valid</subaack:ValidationStatus>
+  <subaack:NCAreaction>No action required</subaack:NCAreaction>
+  <subaack:Version>1</subaack:Version>
+  <subaack:Revision>1</subaack:Revision>
+  <subaack:Statistics>
+    <subaack:NumberOfValidItems>6815</subaack:NumberOfValidItems>
+    <subaack:NumberOfInformationItems>0</subaack:NumberOfInformationItems>
+    <subaack:NumberOfWarnings>0</subaack:NumberOfWarnings>
+    <subaack:NumberOfNonRestrictiveErrors>0</subaack:NumberOfNonRestrictiveErrors>
+    <subaack:NumberOfErrors>0</subaack:NumberOfErrors>
+    <subaack:NumberOfFatalErrors>0</subaack:NumberOfFatalErrors>
+    <subaack:FilingIndicatorsFound>7</subaack:FilingIndicatorsFound>
+    <subaack:NumberOfContextFound>0</subaack:NumberOfContextFound>
+    <subaack:NumberOfFactsFound>6815</subaack:NumberOfFactsFound>
+  </subaack:Statistics>
+</subaack:SubaAcknowledgement>
